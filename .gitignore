@@ -1,0 +1,60 @@
+# Archivos de clase compilados
+*.class
+*.jar
+*.war
+*.ear
+target/
+bin/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+dependency-reduced-pom.xml
+
+# IDE
+.vscode/
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Seguridad: Datos de usuario y configuraciones
+# ========================================
+
+# Directorio de configuración del usuario (contiene TODOS los datos sensibles)
+.correosymultiplicaos/
+
+# direcciones de correo y cuentas de correo electrónico con credenciales
+accounts.json
+
+# Información de contactos
+contacts.json
+
+# Etiquetas de correo
+tags.json
+
+# Correos descargados (pueden contener contenido sensible)
+emails/
+
+# Cualquier archivo JSON en directorios de usuario (respaldo)
+**/emails/*.json
+**/.correosymultiplicaos/**
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de respaldo
+*.bak
+*.backup
+*~
+
+# Resultados de pruebas
+test-output/

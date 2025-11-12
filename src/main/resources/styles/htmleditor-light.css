@@ -1,0 +1,17 @@
+body, html {
+  background: #ffffff !important;
+  color: #202020 !important;
+  font-family: 'DejaVu Sans','Noto Sans','Liberation Sans','SansSerif';
+}
+
+p, div, span, li, td, th { color: #202020 !important; }
+
+a { color: #1565c0 !important; }
+img { max-width:100%; height:auto; }
+
+/* Resaltado de errores ortográficos */
+.spell-error {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #d32f2f;
+}

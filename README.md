@@ -15,54 +15,54 @@ Gestor de correo electrónico completo desarrollado en Java 21.
 ## Características
 
 ### Gestión de correo
-- ✉️ Gestión de múltiples cuentas de correo (Gmail, Outlook, Yahoo, personalizado)
-- 📁 Organización en carpetas (Bandeja de entrada, Enviados, Borradores, Spam, Papelera)
-- 📝 Composición de nuevos mensajes con responder/reenviar
-- 📎 Soporte para múltiples archivos adjuntos
-- 🔍 **Búsqueda avanzada** de correos (por remitente, asunto, contenido, fecha)
-- �️ **Sistema de etiquetas** con colores personalizables
-- ✍️ **Firmas de correo** personalizadas por cuenta
+- Gestión de múltiples cuentas de correo (Gmail, Outlook, Yahoo, personalizado)
+- Organización en carpetas (Bandeja de entrada, Enviados, Borradores, Spam, Papelera)
+- Composición de nuevos mensajes con responder/reenviar
+- Soporte para múltiples archivos adjuntos
+- **Búsqueda avanzada** de correos (por remitente, asunto, contenido, fecha)
+- **Sistema de etiquetas** con colores personalizables
+- **Firmas de correo** personalizadas por cuenta
 
 ### Contactos
-- 📇 **Libreta de direcciones** completa
-- 🔎 Búsqueda de contactos en tiempo real
-- 📊 Seguimiento de frecuencia de uso
-- 📤 Importar/Exportar contactos en CSV
-- ➕ Agregar contactos manualmente o desde correos
+- **Libreta de direcciones** completa
+- Búsqueda de contactos en tiempo real
+- Seguimiento de frecuencia de uso
+- Importar/Exportar contactos en CSV
+- Agregar contactos manualmente o desde correos
 
 ### Interfaz y experiencia
-- 🎨 Interfaz gráfica intuitiva con Swing + ventana de redacción en JavaFX
-- 🚀 Splash screen personalizado
-- 🖥️ **Icono en la bandeja del sistema** con menú contextual
-- 🔔 Notificaciones del sistema
-- 🪟 Minimizar a la bandeja del sistema
-- 📊 Barra de estado con información en tiempo real
-- ⌨️ Atajos de teclado (Ctrl+F para buscar)
+- Interfaz gráfica intuitiva con Swing + ventana de redacción en JavaFX
+- Splash screen personalizado
+- **Icono en la bandeja del sistema** con menú contextual
+- Notificaciones del sistema
+- Minimizar a la bandeja del sistema
+- Barra de estado con información en tiempo real
+- Atajos de teclado (Ctrl+F para buscar)
 
 ### Redacción (JavaFX)
-- 📝 Editor HTML enriquecido basado en JavaFX HTMLEditor/WebView
-- ✓ Corrector ortográfico en vivo (LanguageTool: español)
-- 🖼️ Imágenes inline con previsualización inmediata (file:) y redimensionado con el ratón
-- 🔄 Conversión automática de imágenes a content-id (cid:) antes de enviar/guardar borradores
-- 🎯 Manejo de tildes/ñ/teclas muertas en Linux sin problemas (WebView)
+- Editor HTML enriquecido basado en JavaFX HTMLEditor/WebView
+- Corrector ortográfico en vivo (LanguageTool: español)
+- Imágenes inline con previsualización inmediata (file:) y redimensionado con el ratón
+- Conversión automática de imágenes a content-id (cid:) antes de enviar/guardar borradores
+- Manejo de tildes/ñ/teclas muertas en Linux sin problemas (WebView)
 
 ### Seguridad
 ### Calendario de citas
-- 📅 Vista mensual navegable (anterior/siguiente)
-- ➕ Crear citas con título, lugar, descripción
-- � Horario de inicio y fin o eventos de todo el día
-- ⚠️ Aviso de solapado sencillo entre citas del mismo día
-- 🖱️ Doble clic en un día para crear rápidamente
+- Vista mensual navegable (anterior/siguiente)
+- Crear citas con título, lugar, descripción
+- Horario de inicio y fin o eventos de todo el día
+- Aviso de solapado sencillo entre citas del mismo día
+- Doble clic en un día para crear rápidamente
 - Accesos:
   - Menú "Calendario" → "Abrir calendario…" (atajo Ctrl+Shift+C)
   - Menú de la bandeja del sistema → "Calendario"
- - 🔔 Recordatorios diarios configurables (por defecto 18:00) para las citas del día siguiente
+ - Recordatorios diarios configurables (por defecto 18:00) para las citas del día siguiente
 
-- �🔐 Almacenamiento cifrado de credenciales (AES-256-GCM)
-- 🔑 Derivación de claves con PBKDF2
-- 🔒 Validación SSL/TLS
-- ⏱️ Rate limiting y auto-lock
-- 🛡️ Sin almacenamiento de contraseñas en texto plano
+- Almacenamiento cifrado de credenciales (AES-256-GCM)
+- Derivación de claves con PBKDF2
+- Validación SSL/TLS
+- Rate limiting y auto-lock
+- Sin almacenamiento de contraseñas en texto plano
 
 ## Requisitos
 
@@ -145,7 +145,7 @@ El logo se redimensionará automáticamente a 250x350 píxeles.
   - Ver detalles de configuración
   - Probar conexión
   - Menú contextual con clic derecho
-  - ✍️ **Editar firma** de cada cuenta
+  - **Editar firma** de cada cuenta
 - **Configuración**: Preferencias generales de la aplicación
   - **Pestaña general**: Comprobación automática de correo, notificaciones, sonidos
   - **Pestaña apariencia**: Tema, tamaño de fuente, opciones de bandeja del sistema
@@ -153,18 +153,18 @@ El logo se redimensionará automáticamente a 250x350 píxeles.
 
 ### Menú correo
 - **Nuevo mensaje**: Componer y enviar correos electrónicos reales
-  - 🎨 Editor HTML enriquecido (JavaFX HTMLEditor/WebView)
+  - Editor HTML enriquecido (JavaFX HTMLEditor/WebView)
     - Formato: **Negrita**, *Cursiva*, <u>Subrayado</u>, tamaño y color
-    - ✓ Corrector ortográfico en vivo (español)
-    - 🖼️ Insertar imágenes con previsualización inmediata y redimensionado
-    - 🔄 Conversión automática a cid: al enviar/guardar
-  - 📧 Múltiples destinatarios (coma o punto y coma)
-  - 📇 Selector de contactos
-  - 📎 Múltiples adjuntos
-  - 🌍 UTF-8 correcto (tildes, ñ, especiales)
-  - ✉️ Envío con barra de progreso
-  - ✅ Validación de direcciones
-  - ✍️ Inserción automática de firma si está habilitada
+    - Corrector ortográfico en vivo (español)
+    - Insertar imágenes con previsualización inmediata y redimensionado
+    - Conversión automática a cid: al enviar/guardar
+  - Múltiples destinatarios (coma o punto y coma)
+  - Selector de contactos
+  - Múltiples adjuntos
+  - UTF-8 correcto (tildes, ñ, especiales)
+  - Envío con barra de progreso
+  - Validación de direcciones
+  - Inserción automática de firma si está habilitada
 - **Responder**: Responde al mensaje seleccionado
   - Incluye contenido original con formato HTML preservado
   - Inserta firma automáticamente

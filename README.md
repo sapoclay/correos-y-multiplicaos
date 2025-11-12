@@ -1,5 +1,7 @@
 # Correos Y Multiplicaos
 
+<img width="425" height="234" alt="logo-correos" src="https://github.com/user-attachments/assets/a6598048-6b9b-4c76-9fb0-40ffae40d646" />
+
 Gestor de correo electrónico completo desarrollado en Java 21.
 
 ## Novedades (2025)
@@ -130,6 +132,8 @@ src/main/resources/images/logo.png
 El logo se redimensionará automáticamente a 250x350 píxeles.
 
 ## Funcionalidades implementadas
+
+<img width="991" height="694" alt="interfaz-correos-y-multiplicaos" src="https://github.com/user-attachments/assets/6f7c57c5-2cdd-4d9f-8458-80bc45b98557" />
 
 ### Menú archivo
 - **Nueva cuenta**: Añadir cuentas de Gmail, Outlook, Yahoo o personalizadas
